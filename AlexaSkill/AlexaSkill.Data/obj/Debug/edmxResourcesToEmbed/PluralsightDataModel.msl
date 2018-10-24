@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="alexademo2_dbModelStoreContainer" CdmEntityContainer="alexademo2_dbEntities">
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="alexademo2_dbModel.Cours">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Votes" ColumnName="Votes" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="alexademo2_dbModel.Member">
+        <MappingFragment StoreEntitySet="Members">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="LastRequestDate" ColumnName="LastRequestDate" />
+          <ScalarProperty Name="RequestCount" ColumnName="RequestCount" />
+          <ScalarProperty Name="AlexaUserId" ColumnName="AlexaUserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Requests">
+      <EntityTypeMapping TypeName="alexademo2_dbModel.Request">
+        <MappingFragment StoreEntitySet="Requests">
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="IsNew" ColumnName="IsNew" />
+          <ScalarProperty Name="Slots" ColumnName="Slots" />
+          <ScalarProperty Name="Intent" ColumnName="Intent" />
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
+          <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

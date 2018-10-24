@@ -1,0 +1,34 @@
+﻿{
+	"intents":
+	[
+		{
+			"intent":"NewCoursesIntent",
+			"slots": []
+		},
+		{
+			"intent":"TopCoursesIntent",
+			"slots": [
+        {
+          "name": "Limit",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+					"name": "Criteria",
+					"type": "CRITERIA"
+				}
+			]
+		},
+		{
+			"intent":"AMAZON.CancelIntent",
+			"slots": []
+		},
+		{
+			"intent":"AMAZON.StopIntent",
+			"slots": []
+		},
+		{
+			"intent":"AMAZON.HelpIntent",
+			"slots": []
+		}
+	]
+}

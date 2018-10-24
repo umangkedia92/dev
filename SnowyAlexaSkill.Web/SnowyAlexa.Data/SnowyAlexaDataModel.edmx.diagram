@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6de2fb5bb5484ac18c9fe14da4f1dce8" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="snowyalexa_dbModel.Member" Width="1.5" PointX="0.75" PointY="1.875" />
+        <EntityTypeShape EntityType="snowyalexa_dbModel.Request" Width="1.5" PointX="3.5" PointY="1" />
+        <AssociationConnector Association="snowyalexa_dbModel.FK_Members_Requests" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

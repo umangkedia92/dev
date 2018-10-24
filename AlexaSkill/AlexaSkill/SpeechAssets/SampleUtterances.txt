@@ -1,0 +1,14 @@
+﻿NewCoursesIntent what are todays new releases
+NewCoursesIntent todays new releases
+NewCoursesIntent latest courses
+
+TopCoursesIntent popular
+TopCoursesIntent top courses
+
+TopCoursesIntent top {Limit} {Criteria}
+TopCoursesIntent get the {Limit} most popular {Criteria}
+TopCoursesIntent get the {Limit} top {Criteria}
+
+AMAZON.CancelIntent cease everything
+AMAZON.StopIntent abort getting pluralsight feed
+AMAZON.HelpIntent give me guidance

@@ -1,0 +1,14 @@
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.dll.config
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.dll
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.pdb
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.dll
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\Newtonsoft.Json.dll
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.xml
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\Newtonsoft.Json.xml
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csprojAssemblyReference.cache
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CoreCompileInputs.cache
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CopyComplete
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.dll
+C:\Users\umkedia\source\repos\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.pdb

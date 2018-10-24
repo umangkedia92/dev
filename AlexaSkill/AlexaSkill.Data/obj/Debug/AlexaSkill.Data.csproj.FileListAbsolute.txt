@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\AlexaSkill.Data.dll.config
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\AlexaSkill.Data.dll
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\AlexaSkill.Data.pdb
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\EntityFramework.dll
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\EntityFramework.xml
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\bin\Debug\Newtonsoft.Json.xml
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\obj\Debug\AlexaSkill.Data.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\obj\Debug\AlexaSkill.Data.csproj.CopyComplete
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\obj\Debug\AlexaSkill.Data.dll
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\obj\Debug\AlexaSkill.Data.pdb
+\\Mac\Home\Documents\Umang-Docs\Alexa_POC\AlexaSkills_DotNet\amazon-echo-developing-alexa-skills\3-amazon-echo-developing-alexa-skills-m3-exercise-files\AlexaSkill.Data\obj\Debug\AlexaSkill.Data.csprojAssemblyReference.cache
