@@ -28,6 +28,7 @@
     <Property Name="Type" Type="varchar" MaxLength="500" Nullable="false" />
     <Property Name="Reason" Type="varchar" MaxLength="50" />
     <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="DialogState" Type="varchar" MaxLength="500" />
   </EntityType>
   <Association Name="FK_Members_Requests">
     <End Role="Members" Type="Self.Members" Multiplicity="1" />

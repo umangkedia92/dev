@@ -132,6 +132,9 @@ namespace SnowyAlexa.Data
                     return output;
                 }
             }
+            [JsonProperty("dialogState")]
+            public string dialogState { get; set; }
+
         }
     }
 }

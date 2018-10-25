@@ -38,6 +38,7 @@
     <Property Name="Reason" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
     <NavigationProperty Name="Member" Relationship="snowyalexa_dbModel.FK_Members_Requests" FromRole="Request" ToRole="Member" />
+    <Property Name="DialogState" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK_Members_Requests">
     <End Type="snowyalexa_dbModel.Member" Role="Member" Multiplicity="1" />

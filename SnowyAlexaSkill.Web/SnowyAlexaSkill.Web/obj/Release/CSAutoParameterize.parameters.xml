@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="snowyAlexa_Entities-Web.config Connection String" description="snowyAlexa_Entities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/SnowyAlexaDataModel.csdl|res://*/SnowyAlexaDataModel.ssdl|res://*/SnowyAlexaDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=snowy-server.database.windows.net;initial catalog=snowy-db;user id=concertadmin;password=concertAdm!n2018;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\umkedia\\source\\repos\\SnowyAlexaSkill\.Web\\SnowyAlexaSkill\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='snowyAlexa_Entities']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Envy\\Documents\\mydev\\SnowyAlexaSkill\.Web\\SnowyAlexaSkill\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='snowyAlexa_Entities']/@connectionString" />
   </parameter>
 </parameters>

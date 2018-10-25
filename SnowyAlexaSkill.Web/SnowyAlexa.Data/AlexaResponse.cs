@@ -23,6 +23,7 @@ namespace SnowyAlexa.Data
             Session = new SessionAttributes();
             Response = new ResponseAttributes();
         }
+      
 
         public AlexaResponse(string outputSpeechText)
             : this()
@@ -53,6 +54,13 @@ namespace SnowyAlexa.Data
             Response.OutputSpeech.Text = outputSpeechText;
             Response.Card.Content = cardContent;
         }
+        public AlexaResponse(int directive)
+           : this()
+        {
+            Version = "1.0";
+            Session = new SessionAttributes();
+            Response = new ResponseAttributes(directive);
+        }
 
         [JsonObject("sessionAttributes")]
         public class SessionAttributes
@@ -76,12 +84,20 @@ namespace SnowyAlexa.Data
             [JsonProperty("reprompt")]
             public RepromptAttributes Reprompt { get; set; }
 
+            [JsonProperty("directives", NullValueHandling = NullValueHandling.Ignore)]
+            public List<DirectiveAttributes> Directives { get; set; }
+
             public ResponseAttributes()
             {
                 ShouldEndSession = true;
                 OutputSpeech = new OutputSpeechAttributes();
                 Card = new CardAttributes();
                 Reprompt = new RepromptAttributes();
+               
+            }
+            public ResponseAttributes(int flag)
+            {
+                Directives = new List<DirectiveAttributes>();
             }
 
             [JsonObject("outputSpeech")]
@@ -130,6 +146,17 @@ namespace SnowyAlexa.Data
                 {
                     OutputSpeech = new OutputSpeechAttributes();
                 }
+            }
+
+            [JsonObject("directives"),]
+            public class DirectiveAttributes
+            {
+                [JsonProperty("type", NullValueHandling = NullValueHandling.Ignore)]
+                public string Type { get; set; }
+                //public DirectiveAttributes()
+                //{
+                //    Type = "Dialog.Delegate";
+                //}
             }
         }
 

@@ -15,6 +15,7 @@
     <EntitySetMapping Name="Requests">
       <EntityTypeMapping TypeName="snowyalexa_dbModel.Request">
         <MappingFragment StoreEntitySet="Requests">
+          <ScalarProperty Name="DialogState" ColumnName="DialogState" />
           <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
           <ScalarProperty Name="Reason" ColumnName="Reason" />
           <ScalarProperty Name="Type" ColumnName="Type" />

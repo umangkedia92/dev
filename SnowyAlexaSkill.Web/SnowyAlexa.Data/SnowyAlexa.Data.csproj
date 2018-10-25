@@ -65,6 +65,9 @@
     <Compile Include="Request.cs">
       <DependentUpon>SnowyAlexaDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="SnowGetIncidents.cs" />
+    <Compile Include="SnowRequest.cs" />
+    <Compile Include="SnowResponse.cs" />
     <Compile Include="SnowyAlexaDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

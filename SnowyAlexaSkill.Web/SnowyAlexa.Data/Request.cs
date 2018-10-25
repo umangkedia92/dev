@@ -28,6 +28,7 @@ namespace SnowyAlexa.Data
         public string Type { get; set; }
         public string Reason { get; set; }
         public System.DateTime DateCreated { get; set; }
+        public string DialogState { get; set; }
     
         public virtual Member Member { get; set; }
     }
