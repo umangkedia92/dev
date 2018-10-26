@@ -30,6 +30,16 @@
     <Property Name="DateCreated" Type="datetime" Nullable="false" />
     <Property Name="DialogState" Type="varchar" MaxLength="500" />
   </EntityType>
+  <EntityType Name="UserAuthenticated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SysId" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserId" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
   <Association Name="FK_Members_Requests">
     <End Role="Members" Type="Self.Members" Multiplicity="1" />
     <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
@@ -45,6 +55,7 @@
   <EntityContainer Name="snowyalexa_dbModelStoreContainer">
     <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Requests" EntityType="Self.Requests" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserAuthenticated" EntityType="Self.UserAuthenticated" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Members_Requests" Association="Self.FK_Members_Requests">
       <End Role="Members" EntitySet="Members" />
       <End Role="Requests" EntitySet="Requests" />

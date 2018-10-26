@@ -35,6 +35,16 @@
           <Property Name="DateCreated" Type="datetime" Nullable="false" />
           <Property Name="DialogState" Type="varchar" MaxLength="500" />
         </EntityType>
+        <EntityType Name="UserAuthenticated">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SysId" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="CreateDate" Type="datetime" Nullable="false" />
+          <Property Name="FullName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="UserId" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
         <Association Name="FK_Members_Requests">
           <End Role="Members" Type="Self.Members" Multiplicity="1" />
           <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
@@ -50,6 +60,7 @@
         <EntityContainer Name="snowyalexa_dbModelStoreContainer">
           <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Requests" EntityType="Self.Requests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserAuthenticated" EntityType="Self.UserAuthenticated" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_Members_Requests" Association="Self.FK_Members_Requests">
             <End Role="Members" EntitySet="Members" />
             <End Role="Requests" EntitySet="Requests" />
@@ -66,6 +77,7 @@
             <End Role="Member" EntitySet="Members" />
             <End Role="Request" EntitySet="Requests" />
           </AssociationSet>
+          <EntitySet Name="UserAuthenticateds" EntityType="snowyalexa_dbModel.UserAuthenticated" />
         </EntityContainer>
         <EntityType Name="Member">
           <Key>
@@ -111,6 +123,16 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="UserAuthenticated">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SysId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="FullName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -145,6 +167,17 @@
                 <ScalarProperty Name="AppId" ColumnName="AppId" />
                 <ScalarProperty Name="SessionId" ColumnName="SessionId" />
                 <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserAuthenticateds">
+            <EntityTypeMapping TypeName="snowyalexa_dbModel.UserAuthenticated">
+              <MappingFragment StoreEntitySet="UserAuthenticated">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="SysId" ColumnName="SysId" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

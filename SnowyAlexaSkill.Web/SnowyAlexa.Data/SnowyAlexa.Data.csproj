@@ -83,6 +83,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SnowyAlexaDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="UserAuthenticated.cs">
+      <DependentUpon>SnowyAlexaDataModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="SnowyAlexaDataModel.edmx">

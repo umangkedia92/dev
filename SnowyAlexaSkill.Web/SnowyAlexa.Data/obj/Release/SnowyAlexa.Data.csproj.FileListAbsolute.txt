@@ -26,3 +26,17 @@ C:\Users\Envy\Documents\mydev\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\Sn
 C:\Users\Envy\Documents\mydev\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csprojAssemblyReference.cache
 C:\Users\Envy\Documents\mydev\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CoreCompileInputs.cache
 C:\Users\Envy\Documents\mydev\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CopyComplete
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.dll.config
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.dll
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\SnowyAlexa.Data.pdb
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.dll
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\Newtonsoft.Json.dll
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.xml
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\bin\Release\Newtonsoft.Json.xml
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csprojAssemblyReference.cache
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CoreCompileInputs.cache
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.csproj.CopyComplete
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.dll
+C:\Users\umkedia\Documents\AlexaSkill\SnowyAlexaSkill.Web\SnowyAlexa.Data\obj\Release\SnowyAlexa.Data.pdb

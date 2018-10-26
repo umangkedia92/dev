@@ -7,6 +7,7 @@
       <End Role="Member" EntitySet="Members" />
       <End Role="Request" EntitySet="Requests" />
     </AssociationSet>
+    <EntitySet Name="UserAuthenticateds" EntityType="snowyalexa_dbModel.UserAuthenticated" />
   </EntityContainer>
   <EntityType Name="Member">
     <Key>
@@ -52,4 +53,14 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="UserAuthenticated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SysId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

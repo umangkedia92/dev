@@ -15,6 +15,9 @@ namespace SnowyAlexa.Data
         [JsonProperty("category")]
         public string Category { get; set; }
 
+        [JsonProperty("caller_id")]
+        public string CallerId { get; set; }
+
         [JsonProperty("impact")]
         public string Impact { get; set; }
 

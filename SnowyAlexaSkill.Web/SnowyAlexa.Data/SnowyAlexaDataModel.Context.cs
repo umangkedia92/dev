@@ -27,5 +27,6 @@ namespace SnowyAlexa.Data
     
         public virtual DbSet<Member> Members { get; set; }
         public virtual DbSet<Request> Requests { get; set; }
+        public virtual DbSet<UserAuthenticated> UserAuthenticateds { get; set; }
     }
 }
