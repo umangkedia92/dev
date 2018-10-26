@@ -167,6 +167,7 @@ namespace WinFormCharpWebCam
 
             imgCapture.Visible = false;
             imgVideo.Visible = true;
+            MessageBox.Show("Successfully Authenticated!","Successful Authentication",MessageBoxButtons.OK, MessageBoxIcon.Information);
             webcam.Continue();
 
 
