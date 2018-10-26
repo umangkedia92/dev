@@ -1,0 +1,17 @@
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\WinFormCharpWebCam.exe
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\WinFormCharpWebCam.pdb
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\WebCam_Capture.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.csprojResolveAssemblyReference.cache
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.mainWinForm.resources
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.Properties.Resources.resources
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.csproj.GenerateResource.Cache
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.exe
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\obj\Debug\WinFormCharpWebCam.pdb
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\WinFormCharpWebCam.exe.config
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\System.Runtime.dll
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Microsoft.Azure.CognitiveServices.Vision.Face.xml
+C:\Users\bbadri\Documents\webcamproject\WinFormCharpWebCam\bin\Debug\Newtonsoft.Json.xml
