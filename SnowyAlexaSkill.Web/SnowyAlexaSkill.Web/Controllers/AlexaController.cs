@@ -81,12 +81,12 @@ namespace SnowyAlexaSkill.Web.Controllers
 
             if (!_authenticated)
             {
-                var response = new AlexaResponse("Please Authenticate yourself! Make sure you look in the WebCam Properly!");
+                var response = new AlexaResponse("Please Authenticate yourself and try again! Make sure you look in the WebCam Properly!");
                 response.Session.MemberId = (int)request.MemberId;
                 response.Response.Card.Title = "dAssist Service Desk";
                 response.Response.Card.Content = "Please Authenticate Yourself ";
                 response.Response.Reprompt.OutputSpeech.Text = "I was not able to authenticate, Please authenticate.";
-                response.Response.ShouldEndSession = false;
+                response.Response.ShouldEndSession = true;
                 return response;
 
             }
@@ -109,12 +109,12 @@ namespace SnowyAlexaSkill.Web.Controllers
 
             if (!_authenticated)
             {
-                var response = new AlexaResponse("Please Authenticate yourself! Make sure you look in the WebCam Properly!");
+                var response = new AlexaResponse("Please Authenticate yourself and try again! Make sure you look in the WebCam Properly!");
                 response.Session.MemberId = (int)request.MemberId;
                 response.Response.Card.Title = "dAssist Service Desk";
                 response.Response.Card.Content = "Please Authenticate Yourself ";
                 response.Response.Reprompt.OutputSpeech.Text = "I was not able to authenticate, Please authenticate.";
-                response.Response.ShouldEndSession = false;
+                response.Response.ShouldEndSession = true;
                 return response;
 
             }
@@ -191,7 +191,7 @@ namespace SnowyAlexaSkill.Web.Controllers
                         break;
                     default:
                         response = new AlexaResponse();
-                        response = HelpIntent(request);
+                        response = FallBack(request);
                         break;
 
                 }
@@ -217,7 +217,7 @@ namespace SnowyAlexaSkill.Web.Controllers
             //var number = getIncidentNumber(item);
             item.CallerId = _sysid;
             var number = await snowHelper.CreateSnowIncident(item);
-            var response = new AlexaResponse("Thank you! Your service Request " + number + " is created. We will soon assign this to someone and get it resolved on Priority. Should I help you with anything else?");
+            var response = new AlexaResponse("Thank you "+_fullName+"! Your service Request " + number + " is created. We will soon assign this to someone and get it resolved on Priority. Should I help you with anything else?");
             response.Session.MemberId = (int)request.MemberId;
             response.Response.Card.Title = "Incident NUmber: " + number + " is created";
             response.Response.Card.Content = "We will soon assign this to someone and get it resolved.";
@@ -239,7 +239,7 @@ namespace SnowyAlexaSkill.Web.Controllers
 
             var IncidentNumber = "INC00" + number;
             Incident i = await snowHelper.GetIncidentById(IncidentNumber);
-            var response = new AlexaResponse("Your ticket is Assigned to " + i.AssignmentGroup + " Assignment Group and is being worked upon. Do you need any additional help ?");
+            var response = new AlexaResponse("Thank you "+_fullName+" ,your ticket is Assigned to " + i.AssignmentGroup + " Assignment Group and is being worked upon. Do you need any additional help ?");
             response.Session.MemberId = (int)request.MemberId;
             response.Response.Card.Title = "Incident NUmber: " + IncidentNumber + " is assigned to " + i.AssignmentGroup + "Assignment Group and is being worked upon. Do you need any additional help?";
             response.Response.Card.Content = "We will soon get it resolved.";
@@ -249,7 +249,7 @@ namespace SnowyAlexaSkill.Web.Controllers
 
         private AlexaResponse HelpIntent(Request request)
         {
-            var response = new AlexaResponse("This is Snowy..! You can ask me to create Service Incidents, Get Incident Status, or know all your incidents", false);
+            var response = new AlexaResponse("You can ask me to create an Incident or Get Incident Status from Service Now, I would be happy to help.", false);
             response.Response.Reprompt.OutputSpeech.Text = "Please ask me to Create an Incident ! ";
             return response;
         }
